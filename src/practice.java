@@ -1,14 +1,22 @@
 
-//Java Program to Multiply two Floating-Point Numbers
+
+//Java Program to Swap Two Numbers
 
 class practice{
-    public static void main(String[] args){
-        float a=0.3f;
-        float b=233.3f;
-        float c=a*b;
-        System.out.println(c);
+    static void swaps(int a,int b){
+        int temp=a;
+        a=b;
+        b=temp;
+        System.out.println("The a after swap is : "+a + "the b after swap is : "+ b);
     }
+    public static void main(String[]args){
+        int a=3,b=9;
+        swaps(a,b);
+    }
+
 }
+
+
 
 
 
