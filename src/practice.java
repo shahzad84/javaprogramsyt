@@ -1,14 +1,19 @@
-//How to Read and Print an Integer value in Java
+
+//Ways to read input from console in Java
 
 import java.util.Scanner;
 
 class practice{
     public static void main(String[]args){
-        System.out.println("Enter the no.");
-        Scanner s=new Scanner(System.in);
-        int a=s.nextInt();
-        System.out.println("Entered no.is : "+ a);
+        Scanner obj=new Scanner(System.in);
+        String a=obj.nextLine();
+        System.out.println("Entered string is :"+ a);
+        int b=obj.nextInt();
+        System.out.println("Entered int is :"+ b);
+        float c=obj.nextFloat();
+        System.out.println("Entered float is :"+ c);
     }
 
 }
+
 
