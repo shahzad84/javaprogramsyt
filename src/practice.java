@@ -1,19 +1,17 @@
 
-//Ways to read input from console in Java
-
-import java.util.Scanner;
+//Java Program to Multiply two Floating-Point Numbers
 
 class practice{
-    public static void main(String[]args){
-        Scanner obj=new Scanner(System.in);
-        String a=obj.nextLine();
-        System.out.println("Entered string is :"+ a);
-        int b=obj.nextInt();
-        System.out.println("Entered int is :"+ b);
-        float c=obj.nextFloat();
-        System.out.println("Entered float is :"+ c);
+    public static void main(String[] args){
+        float a=0.3f;
+        float b=233.3f;
+        float c=a*b;
+        System.out.println(c);
     }
-
 }
+
+
+
+
 
 
