@@ -1,13 +1,23 @@
 
 
-//Java Program to Add two no.
+//Odd or Even program in java
+
+import java.util.Scanner;
 
 class practice{
     public static void main(String[]args){
-        int a=3,b=9;
-        System.out.println(a+b);
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        if(a%2==0){
+            System.out.println("the no. is even");
+        }else{
+            System.out.println("the no.is odd");
+        }
     }
+
 }
+
+
 
 
 
